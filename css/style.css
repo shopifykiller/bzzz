@@ -1219,7 +1219,8 @@ h3 { font-size: 22px; letter-spacing: -0.02em; font-weight: 600; }
   .hero-media img { object-position: 22% 40%; }
   .wrap, .wrap-wide { width: calc(100% - 28px); }
   .brand span { display: none; }
-  .page-plants .brand span { display: inline; }
+  .page-plants .brand-home span,
+  .page-plants .brand-plants-short { display: inline; }
   .page-plants .brand-plants-full { display: none; }
   .header-actions { gap: 6px; }
   .header .btn-honey { height: 40px; padding: 0 14px; }
