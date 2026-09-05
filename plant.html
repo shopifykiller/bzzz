@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Растение — Пчелошеринг</title>
+  <meta name="description" content="Экзотическое растение от Пчелошеринга: комнатная культура или плодовое дерево на землях Приволжья.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="index.html">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/logo-256.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Пчелошеринг">
+  <meta name="theme-color" content="#f4efe6">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-plants">
+  <a class="skip" href="#content">К основному контенту</a>
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand brand-duo">
+        <a class="brand-mark is-active" href="index.html" aria-current="page">
+          <img class="brand-crown" src="assets/img/oak-crown.webp" alt="">
+          <span>Экзотические растения</span>
+        </a>
+        <a class="brand-mark brand-home" href="hive.html" aria-label="Пчелошеринг — свой улей">
+          <img src="assets/img/logo.webp" alt="Логотип Пчелошеринг">
+          <span>Пчелошеринг</span>
+        </a>
+      </div>
+      <nav class="nav" id="nav">
+        <a href="hive.html">Свой улей</a>
+        <a href="gift.html">Улей в подарок</a>
+        <a href="index.html" class="is-active">Экзотические растения</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang" id="lang">
+          <button class="lang-btn" id="lang-btn" type="button" aria-haspopup="true" aria-label="Language">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2v3"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/>
+            </svg>
+          </button>
+          <div class="lang-menu" role="menu">
+            <p class="lang-menu-title">Language</p>
+            <button type="button" data-lang="ru" class="is-current"><span class="lang-flag">🇷🇺</span><span class="lang-name">Русский</span></button>
+            <button type="button" data-lang="en"><span class="lang-flag">🇬🇧</span><span class="lang-name">English</span><span class="soon">soon</span></button>
+            <button type="button" data-lang="zh"><span class="lang-flag">🇨🇳</span><span class="lang-name">中文</span><span class="soon">soon</span></button>
+          </div>
+        </div>
+        <button class="btn btn-honey" type="button" data-buy>Купить</button>
+        <button class="burger" type="button" aria-label="Меню" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="section plant-page" id="plant-page">
+      <div class="wrap split">
+        <div class="photo reveal"><img id="plant-photo" src="assets/img/path-9.webp" alt="Растение" width="640" height="640"></div>
+        <div class="copy reveal">
+          <p class="kicker" id="plant-cat">Растение</p>
+          <h1 id="plant-name" style="font-size:clamp(36px,5vw,64px)">Растение</h1>
+          <p class="plant-latin" id="plant-latin"></p>
+          <div class="plant-price" id="plant-price"></div>
+          <p class="lead" id="plant-lead" style="margin-top:8px"></p>
+          <p style="margin-top:16px;color:var(--ink-2)">Своя подробная страница для этого растения ещё в работе — в том же голосе, что и весь Пчелошеринг. Пока можно написать менеджеру: подскажем, едет ли оно домой или сажается на землю рядом с пасекой.</p>
+          <div class="hero-actions" style="margin-top:22px">
+            <a class="btn btn-honey btn-lg" href="https://t.me/pchelosharing" rel="noopener" target="_blank">Заказать в Telegram</a>
+            <a class="btn btn-ghost btn-lg" href="index.html">Все растения</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section plant-climate" id="plant-climate" hidden>
+      <div class="wrap" id="plant-climate-inner"></div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap-wide">
+        <div class="section-head reveal">
+          <p class="kicker">Рядом в каталоге</p>
+          <h2>Похожие и просто хорошие</h2>
+        </div>
+        <div class="ya-grid" id="related-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="hive.html"><img src="assets/img/logo.webp" alt=""><span>Пчелошеринг</span></a>
+        <p style="margin:16px 0;opacity:.75;max-width:36ch">Служба заботы в Telegram. Ежедневно.</p>
+        <a class="tg" href="https://t.me/pchelosharing" rel="noopener" target="_blank">Написать менеджеру</a>
+      </div>
+      <div>
+        <h4>Страницы</h4>
+        <ul>
+          <li><a href="index.html">Экзотические растения</a></li>
+          <li><a href="hive.html">Свой улей</a></li>
+          <li><a href="gift.html">Улей в подарок</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Растениям</h4>
+        <ul>
+          <li><a href="index.html#catalog">Каталог</a></li>
+          <li><a href="hive.html#trees">Яблони и сад</a></li>
+          <li><a href="https://t.me/pchelosharing" rel="noopener" target="_blank">Заказать в Telegram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap legal">
+      Доставка осуществляется ТК СДЭК и Яндекс Go, в соответствии с тарифами перевозчиков. Доставка до перевозчика бесплатна.
+    </div>
+  </footer>
+
+  <div class="modal" id="buy-modal" role="dialog" aria-modal="true" aria-labelledby="buy-title">
+    <div class="modal-card">
+      <div class="modal-top">
+        <div>
+          <p class="kicker">Последние ульи сезона 2026</p>
+          <h2 id="buy-title" style="font-size:32px;margin-top:8px">Выберите улей</h2>
+        </div>
+        <button class="close" id="close-buy" type="button" aria-label="Закрыть">×</button>
+      </div>
+      <p>Последние ульи сезона 2026. Промокод даёт скидку до 12%.</p>
+      <div class="promo">
+        <span>Используйте промокод, чтобы получить скидку до 12%</span>
+        <code id="copy-promo" title="нажмите, чтобы скопировать">подешевле ↑</code>
+      </div>
+      <div class="tariffs">
+        <article class="tariff best">
+          <p class="muted">Целый улей</p>
+          <div class="price">72 100 <small>₽</small></div>
+          <a class="btn btn-honey btn-full" href="https://t.me/pchelosharing" rel="noopener" target="_blank">Узнать больше и купить</a>
+        </article>
+        <article class="tariff">
+          <p class="muted">Треть улья</p>
+          <div class="price">26 100 <small>₽</small></div>
+          <a class="btn btn-ghost btn-full" href="https://t.me/pchelosharing" rel="noopener" target="_blank">Узнать больше и купить</a>
+        </article>
+        <article class="tariff">
+          <p class="muted">Начальный тариф</p>
+          <div class="price">10 500 <small>₽</small></div>
+          <a class="btn btn-ghost btn-full" href="https://t.me/pchelosharing" rel="noopener" target="_blank">Узнать больше и купить</a>
+        </article>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="js/plants-data.js"></script>
+  <script src="js/plants.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
